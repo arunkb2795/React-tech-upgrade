@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- These are react CDN Links -->
+    <!-- https://legacy.reactjs.org/docs/cdn-links.html -->
+    <!-- #1 file is the core of react -->
+    <script
+      crossorigin="anonymous"
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <!-- #2 file is the react library used to access and modify dom -->
+    <script
+      crossorigin="anonymous"
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+        const heading = React.createElement('h1',{},'Hello World From React!');
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(heading);
+    </script>
+  </body>
+</html>
