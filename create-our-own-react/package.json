@@ -1,0 +1,25 @@
+{
+  "name": "create-our-own-react",
+  "version": "1.0.0",
+  "description": "This is just a react app using bundler as parcel",
+  "homepage": "https://github.com/arunkb2795/React-tech-upgrade#readme",
+  "bugs": {
+    "url": "https://github.com/arunkb2795/React-tech-upgrade/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunkb2795/React-tech-upgrade.git"
+  },
+  "license": "ISC",
+  "author": "Arun",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "browserslist":[
+    "last 2 Chrome version"
+  ]
+}
